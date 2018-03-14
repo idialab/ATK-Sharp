@@ -82,12 +82,12 @@ namespace ATKSharp.Envelopes
         {
             get
             {
-                return this.SustainLevel;
+                return this.sustainLevel;
             }
 
             set
             {
-                this.SustainLevel = value.Clamp(0, 1);
+                this.sustainLevel = value.Clamp(0, 1);
                 this.decayInc = (float)((1f - this.SustainLevel) / (ATKSettings.SampleRate * (this.decayTime * 0.001)));
                 this.releaseInc = (float)(this.SustainLevel / (ATKSettings.SampleRate * (this.releaseTime * 0.001)));
             }
