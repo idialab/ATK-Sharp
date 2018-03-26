@@ -7,7 +7,7 @@
 // </license>
 // <summary>This is the ImpulseGenerator class.</summary>
 //-----------------------------------------------------------------------
-namespace ATKSharp.Generators.Oscillators
+namespace ATKSharp.Generators
 {
     using System;
 
