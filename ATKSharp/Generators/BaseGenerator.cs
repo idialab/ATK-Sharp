@@ -66,7 +66,7 @@ namespace ATKSharp.Generators
         /// </summary>
         public virtual double Phase
         {
-            get; protected set;
+            get; set;
         }
 
         /// <summary>
