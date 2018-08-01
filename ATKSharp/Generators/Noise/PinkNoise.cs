@@ -47,7 +47,7 @@ namespace ATKSharp.Generators.Noise
                 this.tables[i] = new float[(int)Math.Pow(2, i)];
                 for (int j = 0; j < this.tables[i].Length; j++)
                 {
-                    this.tables[i][j] = (float)this.Random.NextDouble();
+                    this.tables[i][j] = ((float)this.Random.NextDouble() * 2) - 1;
                 }
             }
 
@@ -76,7 +76,7 @@ namespace ATKSharp.Generators.Noise
             this.tableIndex = this.FindTable(this.x);
             this.index = this.FindEntry(this.tableIndex, this.x);
             this.oldValue = this.tables[this.tableIndex][this.index];
-            this.newValue = (float)this.Random.NextDouble();
+            this.newValue = ((float)this.Random.NextDouble() * 2) - 1;
             this.tables[this.tableIndex][this.index] = this.newValue;
             this.difference = this.newValue - this.oldValue;
             this.CurrentSample = this.PreviousValue + this.difference;

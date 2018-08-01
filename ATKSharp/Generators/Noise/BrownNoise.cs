@@ -49,7 +49,7 @@ namespace ATKSharp.Generators.Noise
         {
             while (true)
             {
-                float r = (float)((Random.NextDouble() * 2 * this.JumpMax) - this.JumpMax);
+                float r = ((((float)this.Random.NextDouble() * 2) - 1) * 2 * this.JumpMax) - this.JumpMax;
                 this.largeVal += r;
                 if (this.largeVal < -16.0f || this.largeVal >= 16.0f)
                 {

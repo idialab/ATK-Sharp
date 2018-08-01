@@ -32,7 +32,7 @@ namespace ATKSharp.Generators.Noise
         {
             get
             {
-                return (float)this.Random.NextDouble();
+                return ((float)this.Random.NextDouble() * 2) - 1;
             }
         }
         #endregion
