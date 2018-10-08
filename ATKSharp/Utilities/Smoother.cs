@@ -15,7 +15,7 @@ namespace ATKSharp.Utilities
     /// The Smoother class. Use this to smooth input data from a gui or 3D world at the audio rate to avoid clicks.
     /// Also works well for portamento 
     /// </summary>
-    public class Smoother
+    public class Smoother 
     {
         #region Fields
         private float a;

@@ -13,7 +13,7 @@ namespace ATKSharp.Generators.Noise
 
     /// <summary>
     /// The Noise class.
-    /// Contains the base functionality for noise.
+    /// Contains the base functionality for noise. 
     /// </summary>
     public abstract class BaseNoise : IGenerator
     {

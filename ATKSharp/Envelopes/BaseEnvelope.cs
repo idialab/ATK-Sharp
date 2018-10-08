@@ -89,7 +89,7 @@ namespace ATKSharp.Envelopes
         DECAY,
 
         /// <summary>
-        /// The Sustain state.
+        /// The Sustain state. 
         /// </summary>
         SUSTAIN,
 

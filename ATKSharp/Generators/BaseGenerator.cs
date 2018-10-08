@@ -38,7 +38,7 @@ namespace ATKSharp.Generators
 
         #region Properties
         /// <summary>
-        /// Gets or sets the oscillator frequency.
+        /// Gets or sets the oscillator frequency. 
         /// </summary>
         public virtual float Frequency
         {
