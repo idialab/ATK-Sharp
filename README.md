@@ -14,3 +14,7 @@ The library includes the most common elements needed to compose generative real-
 ## Downloads
 
 [ATK-Sharp-Demo.unitypackage](https://ballstate.box.com/s/ux48fkryllnzwe65m63igis0hk6nc9g6)
+
+## Downloads
+
+[ATK-Sharp Documentation](http://idialabprojects.org/ATK-Sharp/documentation/)
