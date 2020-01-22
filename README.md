@@ -17,4 +17,4 @@ The library includes the most common elements needed to compose generative real-
 
 ## Documentation
 
-[ATK-Sharp Documentation](http://idialabprojects.org/ATK-Sharp/documentation/)
+[ATK-Sharp Documentation](http://projects.idialab.org/ATK-Sharp/documentation/)
