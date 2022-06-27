@@ -7,7 +7,7 @@ The library includes the most common elements needed to compose generative real-
 
 1. [Download the library.](https://github.com/idialab/ATK-Sharp/archive/master.zip)
 2. Import the files into your Unity project.
-3. [Download the Demo package.](https://ballstate.box.com/s/ux48fkryllnzwe65m63igis0hk6nc9g6)
+3. [Download the Demo package.](https://ballstate.sharepoint.com/:u:/s/BallStateInstitutionalFolders1/EfFVBlsKsrtGu0p1fnFsXgYBucb7NJ_bEVbcE9qlVUz6MA?e=iJRUYp)
 4. Import the package into your Unity project.
 5. Open the scene called 'Demo' in 'ATK-Sharp-Demo/Scenes/'.
 
